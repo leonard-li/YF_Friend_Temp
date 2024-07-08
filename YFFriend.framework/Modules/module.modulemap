@@ -1,0 +1,6 @@
+framework module YFFriend {
+  umbrella header "YFFriend.h"
+  export *
+
+  module * { export * }
+}
