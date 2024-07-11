@@ -20,4 +20,4 @@ FOUNDATION_EXPORT const unsigned char YFFriendVersionString[];
 #import <YFFriend/YFFriendInfo.h>
 #import <YFFriend/YFFriendHelper.h>
 
-#define YF_FRIEND_VERSION @"1.0.0"
+#define YF_FRIEND_VERSION @"1.0.1"

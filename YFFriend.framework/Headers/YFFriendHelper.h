@@ -30,6 +30,18 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)getRecommandFriend:(NSString *)userId
                 completion:(void(^_Nullable)(NSError * _Nullable error, NSArray<YFFriendInfo *> * _Nullable userList))completion;
 
+/// 忽略好友推荐
+/// @param userId 当前用户Id
+/// @param ignoreUserId 忽略的好友用户Id
+- (void)ignoreRecommandFriend:(NSString *)userId
+                 ignoreUserId:(NSString *)ignoreUserId
+                   completion:(void(^_Nullable)(NSError * _Nullable error))completion;
+
+/// 获取忽略的好友推荐
+/// @param userId 当前用户Id
+- (void)getIgnoreRecommandFriend:(NSString *)userId
+                      completion:(void(^_Nullable)(NSError * _Nullable error, NSArray<NSString *> * _Nullable userList))completion;
+
 /// 申请添加好友 【A申请添加B】
 /// @param applyUserId 申请者的用户Id
 /// @param targetUserId 被申请的用户Id

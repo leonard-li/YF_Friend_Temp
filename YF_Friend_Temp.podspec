@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "YF_Friend_Temp"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "好友系统"
 
   spec.description  = <<-DESC
